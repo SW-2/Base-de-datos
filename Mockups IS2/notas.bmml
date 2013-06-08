@@ -1,0 +1,36 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="660" measuredH="439" mockupW="450" mockupH="400">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="210" y="39" w="-1" h="-1" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Centro%20Educativo%20Miraflores%0Ahttp%3A//www.cem.com</text>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::TabBar" x="225" y="127" w="410" h="278" measuredW="150" measuredH="100" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Notas</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::HelpButton" x="556" y="120" w="-1" h="-1" measuredW="18" measuredH="18" zOrder="2" locked="false" isInGroup="-1"/>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::PointyButton" x="580" y="114" w="65" h="-1" measuredW="60" measuredH="27" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Logout</text>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::Canvas" x="252" y="166" w="357" h="34" measuredW="100" measuredH="70" zOrder="4" locked="false" isInGroup="-1"/>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::Label" x="330" y="173" w="-1" h="-1" measuredW="160" measuredH="21" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Notas%20del%20anio%20lectivo%202013</text>
+      </controlProperties>
+    </control>
+    <control controlID="14" controlTypeID="com.balsamiq.mockups::DataGrid" x="253" y="200" w="356" h="175" measuredW="341" measuredH="171" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Materias%20%5Ev%2C%20Enero%20%2C%20Febrero%20%2C%20Marzo%20%2C%20Abril%20%2C%20...%0AMatematicas%2C%2019%2C%2018%2C%2017%2C%20--%2C%20--%0ALenguaje%2C%2019%2C%2018%2C%2017%2C%20--%2C%20--%0AInformatica%2C%2019%2C%2018%2C%2017%2C%20--%2C%20--%0AIngles%2C%2019%2C%2018%2C%2017%2C%20--%2C%20--%0AEducacion%20fisica%2C%2019%2C%2018%2C%2017%2C%20--%2C%20--%0A%7B65L%2C%200R%2C%2035%2C%200C%7D</text>
+      </controlProperties>
+    </control>
+    <control controlID="15" controlTypeID="com.balsamiq.mockups::Button" x="531" y="375" w="-1" h="-1" measuredW="74" measuredH="27" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Exportar</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

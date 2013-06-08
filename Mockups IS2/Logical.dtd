@@ -1,0 +1,202 @@
+<?xml version='1.0' ?>
+<!-- Schema DTD extracted from ER/Studio Model -->
+<!ELEMENT Logical
+   (Estudiante
+   |Materia
+   |Persona
+   |Curso
+   |Curso_materia
+   |calificacion_estudiante
+   |Paralelo
+   |Curso_estudiante
+   |Profesor
+   |Padre_familia
+   |Parentezco
+   |Periodo
+   |Parcial
+)* >
+<!ELEMENT Estudiante
+   (Estudiante.est_fecha_ingreso?
+   ,Estudiante.per_id
+) >
+<!ELEMENT Estudiante.est_fecha_ingreso
+   (#PCDATA) >
+<!ELEMENT Estudiante.per_id
+   (#PCDATA) >
+<!ELEMENT Materia
+   (Materia.mat_id
+   ,Materia.mat_nombre
+   ,Materia.mat_estado?
+) >
+<!ELEMENT Materia.mat_id
+   (#PCDATA) >
+<!ELEMENT Materia.mat_nombre
+   (#PCDATA) >
+<!ELEMENT Materia.mat_estado
+   (#PCDATA) >
+<!ELEMENT Persona
+   (Persona.per_id
+   ,Persona.per_cedula?
+   ,Persona.per_nombres?
+   ,Persona.per_apellidos?
+   ,Persona.per_fecha_nacimiento?
+   ,Persona.per_sexo?
+   ,Persona.per_telefono?
+   ,Persona.per_celular?
+   ,Persona.per_email?
+   ,Persona.per_direccion?
+) >
+<!ELEMENT Persona.per_id
+   (#PCDATA) >
+<!ELEMENT Persona.per_cedula
+   (#PCDATA) >
+<!ELEMENT Persona.per_nombres
+   (#PCDATA) >
+<!ELEMENT Persona.per_apellidos
+   (#PCDATA) >
+<!ELEMENT Persona.per_fecha_nacimiento
+   (#PCDATA) >
+<!ELEMENT Persona.per_sexo
+   (#PCDATA) >
+<!ELEMENT Persona.per_telefono
+   (#PCDATA) >
+<!ELEMENT Persona.per_celular
+   (#PCDATA) >
+<!ELEMENT Persona.per_email
+   (#PCDATA) >
+<!ELEMENT Persona.per_direccion
+   (#PCDATA) >
+<!ELEMENT Curso
+   (Curso.cur_id
+   ,Curso.cur_nombre?
+   ,Curso.cur_anio_lectivo?
+   ,Curso.par_id
+   ,Curso.cur_cupo?
+) >
+<!ELEMENT Curso.cur_id
+   (#PCDATA) >
+<!ELEMENT Curso.cur_nombre
+   (#PCDATA) >
+<!ELEMENT Curso.cur_anio_lectivo
+   (#PCDATA) >
+<!ELEMENT Curso.par_id
+   (#PCDATA) >
+<!ELEMENT Curso.cur_cupo
+   (#PCDATA) >
+<!ELEMENT Curso_materia
+   (Curso_materia.curmat_id
+   ,Curso_materia.cur_id
+   ,Curso_materia.mat_id
+   ,Curso_materia.per_id
+) >
+<!ELEMENT Curso_materia.curmat_id
+   (#PCDATA) >
+<!ELEMENT Curso_materia.cur_id
+   (#PCDATA) >
+<!ELEMENT Curso_materia.mat_id
+   (#PCDATA) >
+<!ELEMENT Curso_materia.per_id
+   (#PCDATA) >
+<!ELEMENT calificacion_estudiante
+   (calificacion_estudiante.calest_id
+   ,calificacion_estudiante.curmat_id
+   ,calificacion_estudiante.per_id
+   ,calificacion_estudiante.parc_id
+   ,calificacion_estudiante.calest_nota?
+   ,calificacion_estudiante.calest_fecha?
+) >
+<!ELEMENT calificacion_estudiante.calest_id
+   (#PCDATA) >
+<!ELEMENT calificacion_estudiante.curmat_id
+   (#PCDATA) >
+<!ELEMENT calificacion_estudiante.per_id
+   (#PCDATA) >
+<!ELEMENT calificacion_estudiante.parc_id
+   (#PCDATA) >
+<!ELEMENT calificacion_estudiante.calest_nota
+   (#PCDATA) >
+<!ELEMENT calificacion_estudiante.calest_fecha
+   (#PCDATA) >
+<!ELEMENT Paralelo
+   (Paralelo.par_id
+   ,Paralelo.par_nombre?
+) >
+<!ELEMENT Paralelo.par_id
+   (#PCDATA) >
+<!ELEMENT Paralelo.par_nombre
+   (#PCDATA) >
+<!ELEMENT Curso_estudiante
+   (Curso_estudiante.curest_id
+   ,Curso_estudiante.cur_id
+   ,Curso_estudiante.per_id
+) >
+<!ELEMENT Curso_estudiante.curest_id
+   (#PCDATA) >
+<!ELEMENT Curso_estudiante.cur_id
+   (#PCDATA) >
+<!ELEMENT Curso_estudiante.per_id
+   (#PCDATA) >
+<!ELEMENT Profesor
+   (Profesor.prof_titulo?
+   ,Profesor.prof_fecha_ingreso?
+   ,Profesor.per_id
+) >
+<!ELEMENT Profesor.prof_titulo
+   (#PCDATA) >
+<!ELEMENT Profesor.prof_fecha_ingreso
+   (#PCDATA) >
+<!ELEMENT Profesor.per_id
+   (#PCDATA) >
+<!ELEMENT Padre_familia
+   (Padre_familia.per_id?
+   ,Padre_familia.per_id
+   ,Padre_familia.representante
+   ,Padre_familia.parent_id
+) >
+<!ELEMENT Padre_familia.per_id
+   (#PCDATA) >
+<!ELEMENT Padre_familia.per_id
+   (#PCDATA) >
+<!ELEMENT Padre_familia.representante
+   (#PCDATA) >
+<!ELEMENT Padre_familia.parent_id
+   (#PCDATA) >
+<!ELEMENT Parentezco
+   (Parentezco.parent_id
+   ,Parentezco.parent_tipo?
+) >
+<!ELEMENT Parentezco.parent_id
+   (#PCDATA) >
+<!ELEMENT Parentezco.parent_tipo
+   (#PCDATA) >
+<!ELEMENT Periodo
+   (Periodo.per_descripcion?
+   ,Periodo.per_id
+   ,Periodo.per_anio_lectivo?
+) >
+<!ELEMENT Periodo.per_descripcion
+   (#PCDATA) >
+<!ELEMENT Periodo.per_id
+   (#PCDATA) >
+<!ELEMENT Periodo.per_anio_lectivo
+   (#PCDATA) >
+<!ELEMENT Parcial
+   (Parcial.parc_id
+   ,Parcial.per_id
+   ,Parcial.parc_porcentaje?
+   ,Parcial.parc_descripcion?
+   ,Parcial.parc_fecha_inicio?
+   ,Parcial.parc_fecha_fin
+) >
+<!ELEMENT Parcial.parc_id
+   (#PCDATA) >
+<!ELEMENT Parcial.per_id
+   (#PCDATA) >
+<!ELEMENT Parcial.parc_porcentaje
+   (#PCDATA) >
+<!ELEMENT Parcial.parc_descripcion
+   (#PCDATA) >
+<!ELEMENT Parcial.parc_fecha_inicio
+   (#PCDATA) >
+<!ELEMENT Parcial.parc_fecha_fin
+   (#PCDATA) >

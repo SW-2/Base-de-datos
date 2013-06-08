@@ -1,0 +1,41 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="660" measuredH="439" mockupW="450" mockupH="400">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="210" y="39" w="-1" h="-1" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Centro%20Educativo%20Miraflores%0Ahttp%3A//www.cem.com</text>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::TabBar" x="225" y="127" w="410" h="278" measuredW="150" measuredH="100" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Deudas</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::HelpButton" x="556" y="120" w="-1" h="-1" measuredW="18" measuredH="18" zOrder="2" locked="false" isInGroup="-1"/>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::PointyButton" x="580" y="114" w="65" h="-1" measuredW="60" measuredH="27" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Logout</text>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::Canvas" x="252" y="166" w="357" h="34" measuredW="100" measuredH="70" zOrder="4" locked="false" isInGroup="-1"/>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::Label" x="330" y="173" w="-1" h="-1" measuredW="140" measuredH="21" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Valores%20del%20anio%20Lectivo</text>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::DataGrid" x="253" y="200" w="356" h="175" measuredW="228" measuredH="129" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>center</align>
+        <alternateRowColor>12303802</alternateRowColor>
+        <bold>false</bold>
+        <hLines>false</hLines>
+        <italic>false</italic>
+        <rowHeight>22</rowHeight>
+        <selectedIndex>2</selectedIndex>
+        <size>11</size>
+        <text>Concepto%20%5Ev%2C%20Valor%20%2C%20Estado%20%2C%20Factura%0AMatricula%2C%20%24350%2C%20Pagado%0AEnero%2C%20%24200%2C%20Pendiente%0AFebrero%2C%20%24200%2C%20Pendiente%0AMarzo%2C%20%24200%2C%20Pendiente%0AAdicional%2C%20%24200%2C%20Pendiente%0A%7B65L%2C%200R%2C%2035%2C%200C%7D</text>
+        <underline>true</underline>
+        <vLines>true</vLines>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

@@ -1,0 +1,50 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="655" measuredH="441" mockupW="450" mockupH="400">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="205" y="41" w="-1" h="-1" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Centro%20Educativo%20Miraflores%0Ahttp%3A//www.cem.com</text>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::TabBar" x="225" y="145" w="410" h="255" measuredW="150" measuredH="100" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Tablero</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::HelpButton" x="556" y="124" w="-1" h="-1" measuredW="18" measuredH="18" zOrder="2" locked="false" isInGroup="-1"/>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::PointyButton" x="580" y="118" w="65" h="-1" measuredW="60" measuredH="27" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Logout</text>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::Canvas" x="252" y="184" w="357" h="34" measuredW="100" measuredH="70" zOrder="4" locked="false" isInGroup="-1"/>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::Label" x="330" y="191" w="-1" h="-1" measuredW="202" measuredH="21" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>BIENVENIDO%2C%20%20Nombre%20de%20Usuario</text>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::Image" x="297" y="235" w="-1" h="-1" measuredW="105" measuredH="97" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./perfil.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::Image" x="458" y="241" w="-1" h="-1" measuredW="116" measuredH="84" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./academico.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::Link" x="324" y="336" w="-1" h="-1" measuredW="50" measuredH="21" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>datos_profesor%26bm%3Bdatos_profesor.bmml%26bm%3Bdatos_profesor.bmml%26bm%3Bdatos_profesor.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22119%2C295%2C169%2C316%22%20href%3D%22datos_profesor.bmml%22%20alt%3D%22datos_profesor%22%20id%3D%228%22/%3E</map>
+        <text>Mi%20Perfil</text>
+      </controlProperties>
+    </control>
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::Link" x="487" y="336" w="-1" h="-1" measuredW="82" measuredH="21" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>calificaciones%26bm%3Bcalificaciones.bmml%26bm%3Bcalificaciones.bmml%26bm%3Bcalificaciones.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22282%2C295%2C364%2C316%22%20href%3D%22calificaciones.bmml%22%20alt%3D%22calificaciones%22%20id%3D%229%22/%3E</map>
+        <text>Calificaciones</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

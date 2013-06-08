@@ -1,0 +1,67 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="655" measuredH="441" mockupW="450" mockupH="400">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="205" y="41" w="-1" h="-1" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Centro%20Educativo%20Miraflores%0Ahttp%3A//www.cem.com</text>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::TabBar" x="225" y="145" w="410" h="255" measuredW="150" measuredH="100" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Tablero</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::HelpButton" x="556" y="124" w="-1" h="-1" measuredW="18" measuredH="18" zOrder="2" locked="false" isInGroup="-1"/>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::PointyButton" x="580" y="118" w="65" h="-1" measuredW="60" measuredH="27" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Logout</text>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::Canvas" x="252" y="184" w="357" h="34" measuredW="100" measuredH="70" zOrder="4" locked="false" isInGroup="-1"/>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::Label" x="330" y="191" w="-1" h="-1" measuredW="201" measuredH="21" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>BIENVENIDO%2C%20%20Nombre%20de%20Usuario</text>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::Image" x="252" y="242" w="42" h="33" measuredW="105" measuredH="97" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./perfil.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="12" controlTypeID="com.balsamiq.mockups::Image" x="256" y="280" w="42" h="33" measuredW="105" measuredH="97" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./perfil.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="13" controlTypeID="com.balsamiq.mockups::Link" x="330" y="287" w="-1" h="-1" measuredW="56" measuredH="19" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>index_alumno%26bm%3Bindex_alumno.bmml%26bm%3Bindex_alumno.bmml%26bm%3Bindex_alumno.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22125%2C246%2C181%2C265%22%20href%3D%22index_alumno.bmml%22%20alt%3D%22index_alumno%22%20id%3D%2213%22/%3E</map>
+        <text>Alumno%202</text>
+      </controlProperties>
+    </control>
+    <control controlID="14" controlTypeID="com.balsamiq.mockups::Image" x="254" y="324" w="42" h="33" measuredW="105" measuredH="97" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./perfil.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="16" controlTypeID="com.balsamiq.mockups::Link" x="330" y="249" w="-1" h="-1" measuredW="53" measuredH="19" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>index_alumno%26bm%3Bindex_alumno.bmml%26bm%3Bindex_alumno.bmml%26bm%3Bindex_alumno.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22125%2C208%2C178%2C227%22%20href%3D%22index_alumno.bmml%22%20alt%3D%22index_alumno%22%20id%3D%2216%22/%3E</map>
+        <markup>true</markup>
+        <text>Alumno%201</text>
+      </controlProperties>
+    </control>
+    <control controlID="18" controlTypeID="__group__" x="332" y="331" w="56" h="19" measuredW="56" measuredH="19" zOrder="10" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Link" x="0" y="0" w="-1" h="-1" measuredW="56" measuredH="19" zOrder="0" locked="false" isInGroup="18">
+          <controlProperties>
+            <href>index_representante%26bm%3Bindex_representante.bmml%26bm%3Bindex_representante.bmml%26bm%3Bindex_representante.bmml</href>
+            <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22127%2C290%2C183%2C309%22%20href%3D%22index_representante.bmml%22%20alt%3D%22index_representante%22%20id%3D%220%22/%3E</map>
+            <text>Alumno%203</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+  </controls>
+</mockup>
